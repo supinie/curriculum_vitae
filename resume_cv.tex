@@ -31,8 +31,8 @@
 \fontdir[fonts/] % Specify the location of the included fonts
 
 % Color for highlights
-\colorlet{awesome}{awesome-nephritis} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
-%\definecolor{awesome}{HTML}{CA63A8} % Uncomment if you would like to specify your own color
+\colorlet{awesome}{awesome-concrete} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+\definecolor{awesome}{HTML}{254b54} % Uncomment if you would like to specify your own color
 
 % Colors for text - uncomment and modify
 %\definecolor{darktext}{HTML}{414141}
@@ -42,6 +42,7 @@
 
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
 \usepackage{multicol}
+\usepackage{changepage}
 %----------------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
@@ -49,7 +50,7 @@
 
 \name{Joshua}{Limbrey}
 
-\email{joshua@supinie.mozmail.com}
+\email{joshua@supinie.com}
 \github{supinie}
 
 \position{Information Security{\enskip\cdotp\enskip}Cryptography{\enskip\cdotp\enskip}Software Dev} % Your expertise/fields
@@ -69,8 +70,15 @@
 
 \input{cv-sections/general.tex}
 \input{cv-sections/education.tex}
+% \input{cv-sections/research}
 \input{cv-sections/skills.tex}
+\input{cv-sections/opensource}
+
+\newpage
 \input{cv-sections/experience.tex}
+
+
+
 
 
 
